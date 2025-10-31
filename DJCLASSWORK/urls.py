@@ -19,6 +19,7 @@ from django.urls import path,include
 
 urlpatterns = [
     path('greeting/',include('greeting.urls')),
-    path('getform/',include('getform.urls'))
+    path('getform/',include('getform.urls')),
+    path('productsapi/',include('productsapi.urls'))
 ]
 
